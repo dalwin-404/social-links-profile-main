@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  width: 100%;
+  background: hsl(0, 0%, 12%);
+  padding: 34px;
+  border-radius: 6px;
+  margin: 50px auto;
+}
+.profile-image {
+  border-radius: 50%;
+  width: 30%;
+  margin-left: 35%;
+}
+.talk {
+  text-align: center;
+}
+.lead {
+  color: white;
+  padding-bottom: 10px;
+}
+h4 {
+  color: hsl(75, 94%, 57%);
+}
+.quote {
+  color: white;
+  padding-top: 20px;
+}
+
+.link {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 1rem;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 20%);
+  padding: 1.3rem 2rem;
+  text-align: center;
+  line-height: 0.1rem;
+}
+.link a:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: white;
+}
